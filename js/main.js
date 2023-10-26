@@ -4,7 +4,6 @@ let botonB= document.getElementById("buttonB");
 let botonOnOff= document.getElementById("buttonOnOff");
 let luzpower= document.getElementById("luz");
 
-console.log("He entrado aqui", pantalla);
 
 var encendido=0
 
@@ -46,7 +45,6 @@ function posicionImagenAMostrar(movimiento){
 }
 let arrayUrlImagenes= ['cogerpokemon.JPG','squirtle.JPG','squirtlecogido.JPG'];
 botonA.addEventListener("click", function (){
-  console.log('ClickA-----', posicionImagen)
   var contenedorPantalla=document.getElementById("contenedor-pantalla");
   contenedorPantalla.innerHTML='<img width="100%" height="100%" src="../img/'+ arrayUrlImagenes[posicionImagen]+'" rel="cogerpokemon">';
   //la imagen sale medio negra porque es así en el juego
@@ -56,7 +54,6 @@ botonA.addEventListener("click", function (){
 })
 
 botonB.addEventListener("click", function (){
-  console.log('ClickB-----', posicionImagen)
   var contenedorPantalla=document.getElementById("contenedor-pantalla");
   contenedorPantalla.innerHTML='<img width="100%" height="100%" src="../img/'+ arrayUrlImagenes[posicionImagen]+'" rel="cogerpokemon">';
   //la imagen sale medio negra porque es así en el juego
