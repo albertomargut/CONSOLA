@@ -3,10 +3,15 @@
 Este proyecto está basado en realizar lo que sería una consola, ya sea existente o una creada por nosotros para poder reflejar los conocimientos técnicos adquiridos en HTML, CSS y JavaScript.
 Para la realización de este proyecto me he basado en una GameBoy Color haciendola funcionar al pulsar los siguientes botones:
 
-- On/off: Este botón situado a la derecha de la consola, lo que va a realizar es que una vez que lo pulsamos, la pantalla de la consola se va a cargar con un video de un juego, en este caso "Pokemon". Además de esto, al realizar la acción de encender, podemos ver que la luz del led encima de "POWER" se enciende. 
-Por el contrario si volvemos a pulsar el botón, tanto la pantalla como la luz se apagan.
+- On/off: Este botón situado a la derecha de la consola, lo que va a realizar es que una vez que lo pulsamos, la pantalla de la consola se va a cargar con un video de un juego, en este caso "Pokemon". Además de esto, al realizar la acción de encender, podemos ver que la luz del led encima de "POWER" se enciende. Por el contrario si volvemos a pulsar el botón, tanto la pantalla como la luz se apagan.
+
+<img src="/img/Consolaapagada.png" alt="Pantalla Apagada"/>
+<img src="/img/Consolaencendida.png" alt="Pantalla Encendida"/>
 
 - Botón A: Al pulsar este botón lo que la consola va a realizar es que va a pasar al siguiente fotograma, hasta llegar a la última foto añadida, donde al pulsar de nuevo volverá a la primera imagen.
+
+<img src="/img/BotonA.png" alt="Primera Pantalla"/>
+<img src="/img/Cambiopantalla.png" alt="Cambio Pantalla"/>
 
 - Botón B: Al contrario que el botón A, al pulsar este botón lo que vamos a realizar será retroceder a la imagen anterior.
 
