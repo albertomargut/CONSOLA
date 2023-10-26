@@ -1,0 +1,283 @@
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .consola {
+    background: #ffbf00;
+    width: 41vw;
+    height: 67vw;
+    margin: 10vh auto;
+    border-radius: 1.5vw 1.5vw 5vw 5vw;
+    overflow: visible;
+    position: relative;
+
+  }
+  
+  .on-off {
+    position: absolute;
+    width: 0.3vw;
+    height: 4vw;
+    background: #434247;
+    border:none;
+    top: 15vw;
+    left: 100%;
+    border-radius: 0vw 5vw 5vw 0vw;
+    transition: all ease .1s;
+    display:flex;
+  }
+  
+  .on .funcionar{
+    left: 18%;
+  }
+  
+  .pantallafuera {
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    width: 95%;
+    height: 48%;
+    background-color:rgb(15, 2, 48);
+    border-radius: 5% 5% 5% 5%;
+  }
+  
+  .pantalla {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 70%;
+    height: 75%;
+    background: #343446;
+    border-radius: 0.25vw;
+  }
+
+
+  .luz {
+    position: absolute;
+    top: 20%;
+    left: 9%;
+    width: 1vw;
+    height: 0.9vw;
+    background: #42312b;
+    border-radius: 2vw;
+  }
+  
+  .power-on {
+    background: red;
+  }
+
+  .power {
+    position: absolute;
+    display: inline-block;
+    top: 23%;
+    left: 6%;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+  }
+  
+  .botonesdireccion {
+    position: absolute;
+    height: 11vw;
+    width: 11vw;
+    top: 59.5%;
+    left: 9%;
+    border-radius: 100vw;
+  }
+  
+  .vertical {
+    position: absolute;
+    height: 89%;
+    width: 3vw;
+    top: 0%;
+    left: 35%;
+    border-radius: 0.5vw;
+    background: #302f36;
+    box-shadow: 0.2vw 0.2vw 5vw rgba(0, 0, 0, 0.25) inset,
+      -0.2vw 0.2vw 0.5vw rgba(255, 255, 255, 0.5) inset;
+  }
+  
+  .horizontal {
+    position: absolute;
+    width: 89%;
+    height: 3vw;
+    top: 32%;
+    left: 4%;
+    border-radius: 0.5vw;
+    background: #302f36;
+    box-shadow: 0.2vw 0.2vw 5vw rgba(0, 0, 0, 0.25) inset,
+      -0.2vw 0.2vw 0.5vw rgba(255, 255, 255, 0.5) inset;
+  }
+  
+  .centro-cruz {
+    position: absolute;
+    width: 3.6vw;
+    height: 3.1vw;
+    top: 32%;
+    left: 33%;
+    border-radius: 5vw;
+    background: #302f36;
+    box-shadow: 0.2vw -0.2vw 0.1vw rgba(0, 0, 0, 0.25) inset,
+      0.2vw -0.2vw 1vw rgba(255, 255, 255, 0.2) inset;
+  }
+  
+  .taparlinea {
+    position: absolute;
+    width: 3.2vw;
+    height: 4.5vw;
+    top: 19%;
+    left: 35%;
+    border-radius: 0 5vw 5vw 0;
+    background: #2a292d;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 26%;
+    top: 43%;
+    width: 82%;
+  }
+  @media(max-width:479px){
+    .logo{
+      top:39%;
+    }
+  }
+  
+  .logo img {
+    width: 60%;
+  }
+  
+  .botones {
+    position: absolute;
+    height: 6.6vw;
+    width: 14vw;
+    top: 61.5%;
+    left: 63%;
+    border-radius: 100vw;
+    transform: rotate(-25deg);
+    
+  }
+  
+  .b {
+    position: absolute;
+    height: 5vw;
+    width: 5vw;
+    top: 13%;
+    left: 6%;
+    border-radius: 100vw;
+    display: block;
+    position: absolute;
+    left: 4px;
+    background: linear-gradient(to top,  #302f36 49%,#cec3c0 100%);
+    transform: rotate(25deg);
+    
+  }
+    
+  .b span {
+    position: absolute;
+    top: 0%;
+    text-indent: 1.5vw;
+    font-size: 3.4vw;
+    z-index:2;
+    color:grey
+  }
+  .a {
+    position: absolute;
+    height: 5vw;
+    width: 5vw;
+    top: 13%;
+    left: 60%;
+    text-indent: -0.3vw;
+    background: linear-gradient(to top,  #302f36 49%,#cec3c0 100%);
+    border-radius: 100vw;
+    text-align: center;
+    transform: rotate(25deg);
+  }
+
+  .a span {
+    position: absolute;
+    top: 0%;
+    text-indent: -0.8vw;
+    font-size: 3.4vw;
+    z-index:2;
+    color:grey;
+  
+  }
+
+  .select {
+    position: absolute;
+    height: 1.5vw;
+    width: 5vw;
+    top: 81%;
+    left: 34%;
+    border-radius: 10vw;
+    background: #302f36;
+    background: linear-gradient(to top, #302f36 49%,#cec3c0 100%);
+    text-align: center;
+    box-shadow: inset 0px 0px 0px .3vw rgba(0, 0, 0, 0.25);
+  }
+  
+  .start{
+    position: absolute;
+    height: 1.5vw;
+    width: 5vw;
+    top: 81%;
+    left: 53%;
+    border-radius: 10vw;
+    background:#302f36;
+    background: linear-gradient(to top,  #302f36 49%,#cec3c0 100%);
+    text-align: center;
+    box-shadow: inset 0px 0px 0px .3vw rgba(0, 0, 0, 0.25);
+
+  }
+  
+  .start span {
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 135%;
+    font-size:1.2vw;
+    width: 100%;
+  }
+
+  .select span {
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 135%;
+    font-size:1.2vw;
+    width: 100%;
+  }
+
+  .speaker {
+    position: absolute;
+    height: 8vw;
+    width: 30%;
+    top: 83%;
+    left: 71%;
+    display:flex;
+  
+  }
+
+  .pokemon {
+    position: absolute;
+    height: 10vw;
+    width: 30%;
+    top: 80%;
+    left: 8%;
+    display:flex;
+  
+  }
+
+  .nintendo {
+    position: absolute;
+    height: 13vw;
+    width: 30%;
+    top: 44%;
+    left: 34%;
+    display:flex;
+  
+  }
+  
+
+ 
